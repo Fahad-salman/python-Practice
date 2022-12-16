@@ -165,10 +165,41 @@ newCart[1] = 'Xbox one'
 print(newCart)
 
 
+#  multi denominational list we call it matrex 
+# example 
+matrex=[
+    [1,6,3], # 0 
+    [7,2,0], # 1 
+    [4,8,5], # 2 
+]
+
+# to print whatever inside matrex list just add [][] 
+print(matrex[0][1]) # here will print 6 because i say matrex go to list number 0 then go to item 1 
+print(matrex[0][2]) # here will print 3
+print(matrex[2][2]) # here will print 5
+
 """
 
+basket =[1,2,3,4,5]
 
+# add value to list list.append() , list.insert() , list.extand([])
 
+basket.append(101) # append will add the value in end of list/
+print(basket) 
+basket.insert(4,103) # insert will add the value into the index you selected 
+print(basket) 
+basket.extend([888,999,444]) # extend will add the (values) in end of list 
+print(basket) 
+
+# remove value from list  , list.pop() , list.remove(need a value) , list.clear() 
+basket.pop() # default pop will remove the list index from the list and you can retreive the index you remove , and you can chose the index you want to remove
+print(basket) 
+basket.remove(3) # remove must have a value to remove
+print(basket)
+basket.clear() # clear will remove everything from the list
+print(basket)
+
+# basket.pop() # pop will remove the value from the index you selected
 
 
 
