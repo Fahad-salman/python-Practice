@@ -119,6 +119,18 @@ len() => length
 
 
 """
+# Exercise
+
+currentYear = 2022
+while True:
+    try:
+        birthYear = float(input('What year were you born ? '))
+    except ValueError:
+            print('Use number please')   
+    else:
+        break
+age = currentYear-birthYear
+print(f'Your age is {age} years old')
 
 # To save a variable :
 # name = "Fahad "
