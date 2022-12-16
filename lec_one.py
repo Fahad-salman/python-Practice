@@ -117,9 +117,7 @@ randomText = 'Here You can print any word from here let/'s look How we do this'
 
 len() => length 
 
-
-"""
-# Exercise
+# Exercise 1 questions => (Counte user age) 
 
 currentYear = 2022
 while True:
@@ -131,6 +129,21 @@ while True:
         break
 age = currentYear-birthYear
 print(f'Your age is {age} years old')
+
+"""
+# Exercise 2 questions => (Counte user password) 
+
+userName = input('Enter your name: ')
+passWord = input('Enter your password: ')
+lengthPassword = len(passWord)
+hidePassword = ('*' * lengthPassword)
+print(f'welcome {userName} , Your password {hidePassword} is {lengthPassword} letters long .')
+
+
+
+
+
+
 
 # To save a variable :
 # name = "Fahad "
