@@ -130,8 +130,7 @@ while True:
 age = currentYear-birthYear
 print(f'Your age is {age} years old')
 
-"""
-# Exercise 2 questions => (Counte user password) 
+# Exercise 2 questions => (Counte user password and replace password to ** ) 
 
 userName = input('Enter your name: ')
 passWord = input('Enter your password: ')
@@ -139,6 +138,34 @@ lengthPassword = len(passWord)
 hidePassword = ('*' * lengthPassword)
 print(f'welcome {userName} , Your password {hidePassword} is {lengthPassword} letters long .')
 
+
+============================================================================
+
+
+list section 
+
+storCart = [
+    'PlayStation 5', # 0
+    'Bag', # 1
+    'Headset', # 2
+    'Tv', # 3
+    ]
+print(storCart) # will print everything in this list
+print(storCart[3]) # Here will print spsefic item in this list
+
+# you can also change the item inside from list 
+storCart[0]='PC' # Likes this you change the item you want
+print(storCart)
+
+# questions 
+# What if i want to copy the list then modify the new list , without change any thing in the first list ? just add ==> [:] <==
+
+newCart = storCart[:]
+newCart[1] = 'Xbox one'
+print(newCart)
+
+
+"""
 
 
 
