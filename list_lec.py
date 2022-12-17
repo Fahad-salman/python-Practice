@@ -52,3 +52,51 @@ basket.remove(3) # remove must have a value = index that you want to remove
 print(basket)
 basket.clear() # clear will remove everything from the list
 print(basket)
+
+# ===================
+
+newBasket = [
+    'phone',
+    'Tv',
+    'Water',
+    'Bag',
+]
+
+# index can take three vale and will tell you where is it in the list,
+# first vale thing that you want to find into the list ,
+# second vale start from index you intered ,
+# third value stop on the index you intered
+print(newBasket.index('Tv'))
+
+# if locking for any word from the list , you can use (in)
+# and will tell if the word you locking for is on the list will return True , if not found it will return False 
+# (" bty not only in list ")
+print('Tv' in newBasket)
+
+# you can count the word in the list by using List.count
+print(newBasket.count('Water'))
+
+# you can sort your lists by using List.sort() or sorted(listName)
+# list.reverse()
+
+#you can copy the list by using List.copy()
+
+# you can gnareate a list by using range()
+print(list(range(101)))
+
+# join will insert your text into the current text
+text = '*'
+editText = text.join(['Hello','im','Fahad'],)
+print(editText)
+# or you can write like this
+article = ' '.join(['<Hello','im','Fahad>'])
+print(article)
+
+# list unpacking 
+
+a,b,c,*other = [1,2,3,4,5,6,7,8,9,10]
+print(a)
+print(b)
+print(c)
+# what if we want print the rest of them type *other
+print(other)
