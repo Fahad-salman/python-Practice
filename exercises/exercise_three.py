@@ -1,3 +1,10 @@
+# Exercise 3 questions => 
+# (
+# chek if magician and expert : "You are a master magician"
+# chek if magician but not expert : "at least You're getting there"
+# chek if You're not a magician: "You need magic powers"
+# )  exercise two
+
 list_yes = [
     'Yes',
     'YEs',
