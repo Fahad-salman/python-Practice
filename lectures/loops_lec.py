@@ -1,0 +1,25 @@
+# Iterable 
+
+user ={
+    'name':'Ronaldo',
+    'age':36,
+    'isFotball_player':True,
+}
+
+for item in user.items():
+    # we can unpacking the tuple
+    keyy , valuee = item
+    print(keyy ,'=>',valuee,'<items>')
+
+
+    # short hand to do this replace item to (key any name , value)
+for key , value in user.items():
+    # we can unpacking the tuple
+    # key , value = item
+    print(key ,'=>',value,'<Short hand>')
+
+
+for item in user.keys():
+    print(item,'<key>')
+for item in user.values():
+    print(item,'<value>')
