@@ -21,5 +21,22 @@ for key , value in user.items():
 
 for item in user.keys():
     print(item,'<key>')
+
 for item in user.values():
     print(item,'<value>')
+
+
+# fon in range
+
+for _ in range(4):
+    print(list(range(4)))
+
+# smple exercise 
+for i,index in enumerate(list(range(61))):
+    if index == 50:
+        print(f"index = {index} ")
+    else:
+        print("else") 
+
+# while loop 
+
