@@ -39,4 +39,10 @@ for i,index in enumerate(list(range(61))):
         print("else") 
 
 # while loop 
-
+num = 0
+while num < 8:
+    num += 1
+    # continue # will let you start from the beginning
+    print(num)
+    # break 
+    # pass # as a placeholder 
