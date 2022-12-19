@@ -17,4 +17,4 @@ for row in picture:
             print('*',end='')
         else:
             print(' ',end='')
-    print('')
+    print('') # this is to make a new line ror each row
