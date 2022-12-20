@@ -27,3 +27,16 @@ def say_hello(greeting='hello'):
     print(greeting)
 
 say_hello() # if is none value will take the default value
+
+
+# you can describe your function
+
+def test_function():
+    '''
+    info: This function will say hello
+    '''
+    print('hello')
+
+test_function() # when you but the mouse on the function will show you the describe function very useful 
+
+# *args -> more than one value , **kwargs -> num1=5 , num2=6
