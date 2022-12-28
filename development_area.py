@@ -28,17 +28,3 @@ employee_Fahad = MyOrg(
 print(employee_Fahad.information())
 employee_Fahad.add_to_list()
 
-# def calculate_salary(self,months):
-#         '''
-#         Month must be integer
-#         '''
-#         self.months= months
-#         total = 0
-#         if months == int(months):
-#             if self.salary:
-#              total = float(self.salary)*months
-#             else:
-#                 return'There is no salary available'
-#             return total
-#         else:
-#             print('There is no salary available')
