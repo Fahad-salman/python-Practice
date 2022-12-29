@@ -30,7 +30,7 @@ line()
 
 otherList = [20,15,70]
 theirList = [80,30,90]
-print(list(zip(firstList,otherList,theirList)),'zip()') # will not change the other 
+print(list(zip(firstList,otherList)),'zip()') # will not change the other 
 line()
 # reduce function
 print(reduce(accumulateor,firstList,2),'reduce()') # will not change the other 
