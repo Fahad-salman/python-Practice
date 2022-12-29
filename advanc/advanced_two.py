@@ -25,4 +25,20 @@ myList2 =[num*2 for num in range(0,101)]
 # question -> do like previous but only print even number
 
 myList3 =[num*2 for num in range(0,101) if num % 2 == 0]
-print(myList3)
+# print(myList3)
+
+# also we can do it with set and dictionary
+
+mySet = {num*2 for num in range(0,101) if num % 2 != 0}
+# print(mySet)
+
+otherDict ={
+    'a': 1,
+    'b': 2 ,
+    'c': 3 ,
+}
+myDict = {key:value**2 for key,value in otherDict.items() if value % 2 != 0}
+# print(myDict)
+
+myDict2 ={num: num**2 for num in [1,2,3,4]}
+# print(myDict2)
