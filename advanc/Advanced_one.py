@@ -33,4 +33,12 @@ theirList = [80,30,90]
 print(list(zip(firstList,otherList,theirList)),'zip()') # will not change the other 
 line()
 # reduce function
-print(reduce(accumulateor,firstList,-100),'reduce()') # will not change the other 
+print(reduce(accumulateor,firstList,2),'reduce()') # will not change the other 
+line()
+# lembda expression
+# step -> lembda pram: action we want to take , yourlist[] 
+print(list(map(lambda item: item/2,firstList)),'lambda map') 
+print(list(filter(lambda item: item+1,firstList)),'lambda filter') 
+print(list(filter(lambda item: item % 2 != 0,firstList)),'lambda') 
+print(reduce(lambda acc,item: acc+item,firstList),'reduce' ),
+line()
