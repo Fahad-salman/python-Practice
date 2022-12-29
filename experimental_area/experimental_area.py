@@ -1,44 +1,29 @@
-class MyOrg(list):
-    def __init__(self, name,salary,job_name,phone_number):
+# side effects 
+# pure function
+
+
+class Status():
+    def __init__(self,bool):
+        self.bool = bool
+    def sign_in(bool):
+        player_conation = bool
+        if player_conation:
+            return'player online ...'
+        else:
+            return 'player offline ...'
+
+class Attacker(Status):
+    def __init__(self,name,power):
         self.name = name
-        self.salary = salary
-        self.job_name = job_name
-        self.phone_number = phone_number
-    
-    def information(self):
-        return self.name, self.salary, self.job_name,self.phone_number
+        self.power = power
+    def info(self):
+        return self.name , self.power
 
-    def add_to_list(self):
-        info = MyOrg.information
-        print(info,'<<')
-        employeeList = []
-        employeeList.extend([info])
-        for emp in employeeList:
-            print(employeeList[::-1])
+# class Deffender(status):
+#     pass
 
-
-
-employee_Fahad = MyOrg(
-    name=input('Employee Name : '), 
-    salary=input('Salary : '), 
-    job_name=input('Job Name :'),
-    phone_number=input('phone_number :'),
-)
-
-print(employee_Fahad.information())
-employee_Fahad.add_to_list()
-
-# def calculate_salary(self,months):
-#         '''
-#         Month must be integer
-#         '''
-#         self.months= months
-#         total = 0
-#         if months == int(months):
-#             if self.salary:
-#              total = float(self.salary)*months
-#             else:
-#                 return'There is no salary available'
-#             return total
-#         else:
-#             print('There is no salary available')
+player = Attacker(name='Hanzo',power='Bow')
+# print(list(player.info()))
+print(player.info())
+print(player.sign_in())
+# print(player.sign_in(True))
