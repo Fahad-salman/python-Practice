@@ -47,4 +47,12 @@ while True:
     if res == 'stop':
         break
     else:
-        culculate()
+        while True:
+            try:
+                culculate()
+            except ValueError:
+                print("Error calculating")
+            except ZeroDivisionError:
+                print("you can't Division by Zero ! ")
+            else:
+                break
