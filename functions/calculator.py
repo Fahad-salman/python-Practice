@@ -56,3 +56,5 @@ while True:
                 print("you can't Division by Zero ! ")
             else:
                 break
+            finally:
+                print('========================')
