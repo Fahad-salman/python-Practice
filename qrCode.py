@@ -1,5 +1,5 @@
 import qrcode
-img = qrcode.make('')
+img = qrcode.make('https://youtube.com/shorts/z3KmtSA0I-w?feature=share')
 type(img)  
-img.save("find_out.png")
-img.show() 
+img.save("saleh.png")
+# img.show() 

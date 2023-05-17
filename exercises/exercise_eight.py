@@ -10,5 +10,5 @@ def rectangle(val):
             for i in range(val):
                 print(i,end='')
             continue
-my_value = int(input('Enter any number : '))
+my_value = int(input('Enter any number : ')) + 2
 rectangle(my_value)
